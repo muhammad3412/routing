@@ -1,0 +1,149 @@
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding-left: 22px;
+
+
+}
+
+mat-card {
+    width: 29%;
+    height: 120px;
+    margin: 20px;
+}
+
+.table {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: bold;
+}
+
+.card:hover {
+    background-color: seagreen;
+    color: #fff;
+    transition: .5s;
+}
+
+/* .menu-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 0 -25px;
+
+    .list-items {
+        width: calc(25% - 25px);
+        margin: 0 0 50px 25px;
+
+        @include desktop {
+            width: calc(33.33% - 25px);
+        }
+
+        @include tablet {
+            width: calc(50% - 25px);
+        }
+
+        @include mobile {
+            width: calc(100% - 25px);
+        }
+    }
+
+    .list-link {
+        position: relative;
+        display: block;
+        min-height: 145px;
+        background: #fff;
+        box-shadow: 2px 2px 15px rgba(5, 5, 124, 0.14);
+        border-radius: 10px;
+        padding: 50px 30px;
+        @include transition(0.4);
+
+        .link-text {
+            position: relative;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 20px;
+            color: seagreen;
+            //max-width: 155px;
+            @include transition(0.4);
+            z-index: 1;
+        }
+
+        .link-top-box {
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            top: -30px;
+
+            svg {
+                width: 100%;
+                display: block;
+            }
+
+            .top-icon {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+
+        .link-bottom-icon {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 92px;
+
+            svg {
+                width: 100%;
+                display: block;
+
+                * {
+                    @include transition(0.4);
+                }
+            }
+        }
+
+        &:not(.disabled):hover {
+            background: seagreen;
+
+            .link-text {
+                color: #fff;
+            }
+
+            .link-bottom-icon {
+                .arrow-box {
+                    fill: seagreen;
+                }
+
+                .arrow {
+                    fill: #fff;
+                }
+            }
+        }
+
+        &.disabled {
+            pointer-events: none;
+            cursor: auto;
+
+            .box-bg {
+                path {
+                    fill: #a7a7a7;
+                }
+            }
+
+            .link-text {
+                color: #a7a7a7;
+            }
+
+            .link-bottom-icon {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+} */

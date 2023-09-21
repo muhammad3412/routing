@@ -1,0 +1,25 @@
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding-left: 22px;
+
+}
+
+mat-card {
+    width: 29%;
+    height: 120px;
+    margin: 20px;
+}
+
+.card {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card:hover {
+    background-color: rgb(49, 117, 117);
+    color: #fff;
+    transition: .2s ease-in;
+}
