@@ -21,14 +21,16 @@ import { ExpandableTableComponent } from './expandable-table/expandable-table.co
 import { CardComponent } from './card/card.component';
 import { HomeComponent } from './home/home.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { SnackbarComponent } from './snackbar/snackbar.component';
 
 @NgModule({
-  declarations: [				
+  declarations: [					
     AppComponent,
       TableComponent,
       ExpandableTableComponent,
       CardComponent,
-      HomeComponent
+      HomeComponent,
+      SnackbarComponent
    ],
   imports: [
     BrowserModule,
